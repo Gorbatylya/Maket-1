@@ -1,6 +1,9 @@
- body {
-     /* font-family: 'Raleway'; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;700&display=swap');
+
+body {
      margin: auto;
+     font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
  }
 
  /* Header */
@@ -247,3 +250,4 @@ font-size: 18px;
 font-weight: 400;
 margin: 0;
 }
+
