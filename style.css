@@ -70,7 +70,7 @@ body {
     list-style-type: none;
  }
 
- .section {
+ .section_price {
     padding-top: 50px ;
     padding-bottom: 50px;
      background: #F5F5F5;
@@ -201,22 +201,25 @@ body {
 /* WHY THIS IS AWESOME */
 
 .section2 {
-    height: 665px;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .container2 {
     max-width: 1170px;
-    display: flex;
-    justify-content: space-between;
+    height: 665px;
     margin: auto;
     width: 100%;
+}
+
+.colonki {
+    display: flex;
+    justify-content: space-between;
 }
 
 .colonka {
     width: 100%;
     max-width: 369px;
-    /* display: flex; */
 }
 
 .icon {
@@ -244,10 +247,102 @@ body {
 display: flex;
 align-items: center;
 text-align: center;
-width: 369px;
 width: 100%;
 font-size: 18px;
 font-weight: 400;
 margin: 0;
+padding-top: 8px;
 }
 
+/* BANNER_2 */
+
+.section_banner{
+    height: 442px;
+    width: auto;
+    background-image: url(./css/image.svg); 
+    background-color: #000;
+}
+
+.fon{
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 442px;
+    padding-top: 50px ;
+    padding-bottom: 50px;
+}
+
+.title_ban{
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 36px;
+    height: 150px;
+    line-height: 150px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.title_ban::after {
+    content: '';
+    width: 170px;
+    height: 1px;
+    background: #fff;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+ }
+
+ .discription_ban {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    position: relative;
+ }
+
+ .button_1_normal{
+    text-align: center;
+ }
+
+ .button {
+    height: 58px;
+    width: 370px;
+    border: 2px solid #FFFFFF;
+    background: rgba(0,0,0,0);
+    margin-top: 73px;
+ }
+
+ .title_button{
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+ }
+ .fon {
+}
+.title {
+
+		&_ban {
+		}
+}
+.discription {
+
+		&_ban {
+		}
+}
+.fon {
+}
+.title_ban {
+}
+.discription_ban {
+}
