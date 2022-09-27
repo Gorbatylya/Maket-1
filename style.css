@@ -83,21 +83,26 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 208px ;
-    padding-bottom: 185px;
-    padding-left: 170px;
-    padding-right: 170px;
 }
 
 .container_ban {
     background: rgba(0, 0, 0, 0.5);
     /* position: absolute; */
     height: 951px;
-    display: flex;
-    max-width: 1170px;
     margin: auto;
     width: 100%;
+    padding-top: 208px ;
+    padding-bottom: 185px;
+    padding-left: 170px;
+    padding-right: 170px;
 }
+
+.container_ban_elem {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
 
 .head_text {
     color: #fff;
@@ -187,6 +192,7 @@ ul {
 
 .colortext{
     color: #EC7979;
+    padding: 0 7px;
 }
 
 .info {
