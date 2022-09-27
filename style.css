@@ -242,10 +242,10 @@ ul {
 /* SOCIAl */
 
 .social {
-    max-width: 1510px;
     width: 100%;
     height: 140px;
     background: #F8EFEF;
+    margin: auto;
 }
 
 .container_social {
@@ -424,6 +424,116 @@ ul {
 
 .price_list li:last-child {
     border-bottom: 0;
+}
+
+/* REWIEWS */
+
+.reviews {
+    margin-top: 50px;
+    margin-bottom: 64px;
+}
+
+.container {
+    max-width: 1171px;
+    width: 100%;
+    margin: auto;
+}
+.reviews_text {
+}
+
+.title_rev {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.title_rev::after {
+    content: "";
+    height: 1px;
+    width: 170px;
+    background: #EC7979;
+    display: block;
+    margin: auto;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.discription_rev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+    margin-top: 40px;
+}
+
+.colonki_rev {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 83px;
+}
+.manager {
+    max-width: 370px;
+    width: 100%;
+}
+
+.man_text1,.man_text2, .man_text3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+    background-image: url(./css/reviews/cloud.svg);
+    max-width: 370px;
+    height: 180px;
+    width: 100%;
+    padding:37px 0;
+}
+
+.manager_face{
+    margin-top: 63px;
+    display: flex;
+}
+
+.specialist{
+    margin-left: 30px;
+}
+
+.name{
+    /* display: flex; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    padding-bottom: 15px;
+}
+
+.manager {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 /* WHY THIS IS AWESOME */
