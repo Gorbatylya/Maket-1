@@ -122,6 +122,7 @@ ul {
     text-transform: uppercase;
     padding-top: 72px;
     padding-bottom: 55px;
+    position: relative;
 }
 
 .title_ban::after {
@@ -132,7 +133,6 @@ ul {
     display: block;
     position: absolute;
     bottom: 0;
-    margin: auto;
     left: 0;
     right: 0;
 }
@@ -294,6 +294,70 @@ ul {
 .icon_social img{
     width: 55px;
     height: 55px;
+}
+
+/* TABS */
+
+.tabs{
+    padding-top: 99px;
+    padding-bottom: 50px;
+}
+
+.container_tabs {
+    max-width: 1170px;
+    width: 100%;
+    height: 501px;
+    margin: auto;
+    display: flex;
+    border: 1px solid #C6CBCD;
+}
+
+.text_tabs {
+    display: flex;
+    flex-direction: column;
+    max-width: 570px;
+    width: 100%;
+    margin-right: 30px;
+    margin-left: 100px;
+}
+.title_tabs {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    height: 124px;
+    display: flex;
+    align-items: center;
+}
+
+.discription_tabs {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* margin-top: 27px; */
+    margin-bottom: 27px;
+}
+.button_tabs {
+    max-width: 270px;
+    width: 100%;
+    height: 58px;
+    background: #EC7979;
+    border: none;
+    cursor: pointer;
+    margin-top: 27px;
+}
+
+.button_tabs p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+    color: #FFFFFF;
+
 }
 
 /* PRICE */
@@ -599,6 +663,9 @@ padding-top: 8px;
     width: auto;
     background-image: url(./css/image.svg); 
     background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .container_ban2{
