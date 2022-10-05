@@ -82,8 +82,6 @@ body {
 
  .container {
      max-width: 1170px;
-     display: flex;
-     justify-content: space-between;
      margin: auto;
      width: 100%;
  }

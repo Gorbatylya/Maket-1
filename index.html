@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="./style.css">
     <title>Проект 1</title>
 
@@ -11,7 +12,7 @@
 <body>
 
     <header class="header">
-        <div class="container-header">
+        <div class="container">
     
             <nav class="nav">
             <a href="/" class="logo">
@@ -74,30 +75,38 @@
     </section>
 
     <section class="social">
-        <div class="container_social">
-        <div class="text_social">
-            <div class="title_social">
-                <p>Social Media</p>
-            </div>
-            <div class="discription_social">
+        <div class="container">
+            <div class="content_soc">
+            <div class="text_social">
+                <div class="title_social">
+                    <p>Social Media</p>
+                </div>
+                <div class="discription_social">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Aenean euismod bibendum laoreet.</p>
+                </div>
             </div>
-        </div>
-        <div class="icon_social">
-            <a href="!#"><img src="./css/icon_foot/facebook_icon.svg" alt="facebook"></a>
-            <a href="!#"><img src="./css/icon_foot/twitter_icon.svg" alt="twitter"></a>
-            <a href="!#"><img src="./css/icon_foot/linkedin_icon.svg" alt="linkedin"></a>
-            <a href="!#"><img src="./css/icon_foot/pinterest_icon.svg" alt="pinterest"></a>
-            <a href="!#"><img src="./css/icon_foot/instagram_icon.svg" alt="instagram"></a>
-            <a href="!#"> <img src="./css/icon_foot/github_icon.svg" alt="github"></a>
-            <a href="!#"><img src="./css/icon_foot/rss_icon.svg" alt="rss"></a>
-        </div>
+            <div class="icon_social">
+                <a href="!#"><img src="./css/icon_foot/facebook_icon.svg" alt="facebook"></a>
+                <a href="!#"><img src="./css/icon_foot/twitter_icon.svg" alt="twitter"></a>
+                <a href="!#"><img src="./css/icon_foot/linkedin_icon.svg" alt="linkedin"></a>
+                <a href="!#"><img src="./css/icon_foot/pinterest_icon.svg" alt="pinterest"></a>
+                <a href="!#"><img src="./css/icon_foot/instagram_icon.svg" alt="instagram"></a>
+                <a href="!#"> <img src="./css/icon_foot/github_icon.svg" alt="github"></a>
+                <a href="!#"><img src="./css/icon_foot/rss_icon.svg" alt="rss"></a>
+            </div>
+            </div>
         </div>
     </section>
 
     <section class="tabs">
-        <div class="container_tabs">
+        <div class="container">
+            <ul class="nav_tabs">
+                <li><p class="tab1">Tab 1</p></li>
+                <li><p class="tab2">Tab 2</p></li>
+                <li><p class="tab3">Tab 3</p></li>
+            </ul>
+            <div class="content">
             <div class="text_tabs">
                 <p class="title_tabs">Tabs with soft transitioning effect.</p>
                 <p class="discription_tabs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
@@ -111,13 +120,16 @@
                     <p>Download</p>
                 </button>
             </div>
-            <img src="./css/tabs/tabs.png" alt="tabs">
+                 
+                <img src="./css/tabs/tabs.png" alt="tabs">
+                
+            </div>
         </div>
 
     </section>
     
     <section class="section2">
-        <div class="container2">
+        <div class="container">
         <h2 class="title">WHY THIS IS AWESOME</h2>
         <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</P>
     
@@ -153,13 +165,14 @@
     </section>
 
     <section class="section_price">
+        <div class="container">
         <h2 class="title">
             PRIGIM OPTIONS
         </h2>
         <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 
         <div class="pricing-columns">
-            <div class="container-price">
+            <div class="colon-price">
                 <div class="price">
                     <div class="price_head">
                         <p class="price_title">Basic</p>
@@ -209,6 +222,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </section>
 
     <section class="reviews">
@@ -272,7 +286,7 @@
     </section>
 
     <section class="contacts">
-        <div class="container_cont">
+        <div class="container">
                 <h2 class="title_cont">contact us</h2>
                 <p class="discription_cont">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <div class="input_cont">
@@ -293,41 +307,41 @@
         </div>
     </section>
 
-</body>
-
-<footer class="footer">
-    <div class="container_foot">
-        <div class="icons_foot">
+    <footer class="footer">
+        <div class="container_foot">
+            <div class="icons_foot">
+                
+                    <a href="!#" class="icon_foot">
+                        <img src="./css/icon_foot/facebook_icon.svg" alt="facebook">
+                    </a>
+                
+                    <a href="!#" class="icon_foot">
+                        <img src="./css/icon_foot/twitter_icon.svg" alt="twitter">
+                    </a>
+               
+                    <a href="!#" class="icon_foot">
+                        <img src="./css/icon_foot/linkedin_icon.svg" alt="linkedin">
+                    </a>
+               
+                    <a href="!#" class="icon_foot">
+                        <img src="./css/icon_foot/pinterest_icon.svg" alt="pinterest">
+                    </a>
+               
+                    <a href="!#" class="icon_foot">
+                        <img src="./css/icon_foot/instagram_icon.svg" alt="instagram">
+                    </a>
+               
+                    <a href="!#" class="icon_foot">
+                        <img src="./css/icon_foot/github_icon.svg" alt="github">
+                    </a>
             
-                <a href="!#" class="icon_foot">
-                    <img src="./css/icon_foot/facebook_icon.svg" alt="facebook">
-                </a>
-            
-                <a href="!#" class="icon_foot">
-                    <img src="./css/icon_foot/twitter_icon.svg" alt="twitter">
-                </a>
-           
-                <a href="!#" class="icon_foot">
-                    <img src="./css/icon_foot/linkedin_icon.svg" alt="linkedin">
-                </a>
-           
-                <a href="!#" class="icon_foot">
-                    <img src="./css/icon_foot/pinterest_icon.svg" alt="pinterest">
-                </a>
-           
-                <a href="!#" class="icon_foot">
-                    <img src="./css/icon_foot/instagram_icon.svg" alt="instagram">
-                </a>
-           
-                <a href="!#" class="icon_foot">
-                    <img src="./css/icon_foot/github_icon.svg" alt="github">
-                </a>
-        
-                <a href="!#" class="icon_foot"><img src="./css/icon_foot/rss_icon.svg"  alt="rss"></a>
-            
+                    <a href="!#" class="icon_foot"><img src="./css/icon_foot/rss_icon.svg"  alt="rss"></a>
+                
+            </div>
+            <p class="discription_foot">© 2015 Axure Themes</p>
         </div>
-        <p class="discription_foot">© 2015 Axure Themes</p>
-    </div>
-</footer>
+    </footer>
+
+</body>
 
 </html>
